@@ -127,11 +127,11 @@ To undo, you type undo.
 To quit you type quit.
 To save you type save and give your save a name.
 To load you type load, and then put in the saved name.
-I believe it makes more sense to save and load when selecting a piece so I put it there. Same for when choosing a destination, puting undo there is better. So you can't undo in selection, nor save and load when choosing a destination. But you can quit for all of them.
+I believe it makes more sense to save and load when selecting a piece so I put it there. Same for when choosing a destination, putting undo there is better. So you can't undo in selection, nor save and load when choosing a destination. But you can quit for all of them.
 
 There is an ai. If you want to go against ai just type 'y' at the beginning.
 
-Also if an opponent piece can be captured that turn you wll be forced to capture it even if you wanted to choose another piece, as per checker rules.
+Also if an opponent piece can be captured that turn you will be forced to capture it even if you wanted to choose another piece, as per checker rules.
 
 For example:
 
