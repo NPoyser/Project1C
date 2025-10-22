@@ -1,6 +1,8 @@
 # Project1C
 Bitboard
 
+#Author [NPoyser]
+
 #Instructions
 
 Playable squares have '.' it looks like this:
