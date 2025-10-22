@@ -5,7 +5,7 @@ Bitboard
 
 Playable squares have '.' it looks like this:
 
-    A B C D E F G H
+   A B C D E F G H
    -----------------
 8 | b   b   b   b
 7 |   b   b   b   b
