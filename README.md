@@ -131,3 +131,40 @@ I believe it makes more sense to save and load when selecting a piece so I put i
 
 There is an ai. If you want to go against ai just type 'y' at the beginning.
 
+Also if an opponent piece can be captured that turn you wll be forced to capture it even if you wanted to choose another piece, as per checker rules.
+
+For example:
+
+    A B C D E F G H
+   -----------------
+8 | b   b   b   b
+7 |   *   *   *   b
+6 | r   .   b   *
+5 |   .   *   *   .
+4 | .   r   .   r
+3 |   .   *   .   .
+2 | *   r   .   .
+1 |   B   r   r   r
+   -----------------
+Turn: Black
+Select a piece to move (e.g., A2, or 'quit', 'save', 'load'): H7
+You have a capturable opponent piece!
+Select a piece to move (e.g., A2, or 'quit', 'save', 'load'): H7
+You have a capturable opponent piece!
+Select a piece to move (e.g., A2, or 'quit', 'save', 'load'): B1
+
+    A B C D E F G H
+   -----------------
+8 | b   b   b   b
+7 |   .   .   .   b
+6 | r   .   b   .
+5 |   .   .   .   .
+4 | .   r   .   r
+3 |   .   *   .   .
+2 | *   r   .   .
+1 |   B   r   r   r
+   -----------------
+Turn: Black
+Note, '*' highlights the directions you can go.
+Select destination (e.g., B3, or 'undo', or 'quit'): D3
+Captured a red mortalic piece!
